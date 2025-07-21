@@ -147,11 +147,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="/footer/snapchat.png"
-            alt="Snapchat"
-            className="w-10 h-10"
-          />
+          <img src="/footer/snapchat.png" alt="Snapchat" className="md:w-10" />
         </a>
         <a
           href="https://instagram.com/mrbeard.waffle"
@@ -161,7 +157,7 @@ export default function Footer() {
           <img
             src="/footer/instagram.png"
             alt="Instagram"
-            className="w-10 h-10"
+            className="md:w-10"
           />
         </a>
       </div>

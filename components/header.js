@@ -12,7 +12,7 @@ export default function Header() {
     <header
       className=""
       style={{
-        padding: "2rem 0",
+        padding: "1rem 0",
         background: "#d5cec8", // background is static
         width: "100%",
       }}

@@ -3,9 +3,9 @@ import React from "react";
 export default function Part1() {
   return (
     <section
-      className="flex items-center min-h-[40vh] md:min-h-[80vh] w-full px-6 py-12"
+      className="flex items-center min-h-[80vh] md:min-h-[80vh] w-full px-6 py-12"
       style={{
-        backgroundImage: "url('/part1/background.png')",
+        backgroundImage: "url('/part1/backgroundLowQuality.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
