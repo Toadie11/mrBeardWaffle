@@ -25,3 +25,76 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@keyframes headerSlideDown {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.header-animate {
+  animation: headerSlideDown 0.8s cubic-bezier(0.4, 0.8, 0.2, 1) forwards;
+  /* No background transition, only slide down */
+}
+
+/* About section slide-in animation */
+@keyframes aboutSlideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.about-animate {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.about-animate.visible {
+  animation: aboutSlideRight 1.5s cubic-bezier(0.4, 0.8, 0.2, 1) forwards;
+}
+
+@keyframes menuSectionFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.menu-section-fade {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.menu-section-fade.visible {
+  animation: menuSectionFadeIn 3s cubic-bezier(0.4, 0.8, 0.2, 1) forwards;
+}
+
+@keyframes fadeInOnLoad {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-on-load {
+  opacity: 0;
+  animation: fadeInOnLoad 1s ease-out forwards;
+}
