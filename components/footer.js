@@ -97,9 +97,14 @@ export default function Footer() {
             <span className="font-bold text-lg">Mr Beard Waffle</span>
           </div>
           <div className="flex items-center">
-            <span className="text-base ml-0 md:ml-8">
+            <a
+              href="https://www.google.com/maps/place/Muwaileh+Commercial+-+Al+Zahia+-+Sharjah+-+Verenigde+Arabische+Emiraten/@25.3178518,55.4556032,16z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5f3003297315:0xceae3d2e78146f6a!8m2!3d25.317313!4d55.4588865!16s%2Fg%2F11r2r4p28v?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base ml-0 md:ml-8 underline hover:text-[#ffe3b3] transition"
+            >
               8FC9+M64 Muwailah Commercial
-            </span>
+            </a>
           </div>
           <div className="flex items-center md:mt-24">
             <MailIcon />
