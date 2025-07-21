@@ -127,7 +127,9 @@ export default function Part3() {
             enjoy.
           </p>
           <a
-            href="/menu"
+            href="/menu/menu.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-2 px-8 py-3 rounded-full bg-white text-[#c37b1e] font-bold text-lg shadow-lg transition hover:bg-[#ffe3b3] hover:text-[#a65c00] border-2 border-[#fff]"
             style={{
               fontFamily: "'Playfair Display', serif",

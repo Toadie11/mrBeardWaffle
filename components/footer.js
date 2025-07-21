@@ -143,11 +143,11 @@ export default function Footer() {
       {/* Social icons */}
       <div className="flex justify-center gap-8 mt-12 mb-4">
         <a
-          href="https://snapchat.com/mrbeard-waffle"
+          href="https://www.tiktok.com/@mrbeard.waffle"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/footer/snapchat.png" alt="Snapchat" className="md:w-10" />
+          <img src="/footer/tiktok.png" alt="Snapchat" className="md:w-10" />
         </a>
         <a
           href="https://instagram.com/mrbeard.waffle"
