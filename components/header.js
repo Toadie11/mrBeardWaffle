@@ -29,7 +29,7 @@ export default function Header() {
         }}
       >
         <img
-          src="/logo/logo1.png"
+          src="/logo/logo3.png"
           alt="Mr Beard Waffle Logo"
           style={{
             height: "80px",

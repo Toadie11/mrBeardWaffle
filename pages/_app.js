@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
     <main>
       <Head>
         <title>Mr Beard Waffle - Belgian Waffle</title>
-        <link rel="icon" href="/logo/logo2.png" />
+        <link rel="icon" href="/logo/logo3.png" />
       </Head>
       <Header />
       <Component {...pageProps} />
