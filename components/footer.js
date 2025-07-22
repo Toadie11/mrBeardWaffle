@@ -98,7 +98,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center">
             <a
-              href="https://www.google.com/maps/place/Muwaileh+Commercial+-+Al+Zahia+-+Sharjah+-+Verenigde+Arabische+Emiraten/@25.3178518,55.4556032,16z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5f3003297315:0xceae3d2e78146f6a!8m2!3d25.317313!4d55.4588865!16s%2Fg%2F11r2r4p28v?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D"
+              href="https://www.google.com/maps/place/Mr.Beard+Waffle+-+%D9%85%D8%B3%D8%AA%D8%B1%D8%A8%D9%8A%D8%B1%D8%AF+%D9%88%D8%A7%D9%81%D9%84%E2%80%AD/@25.3219798,55.4659449,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f5fe973a2eddf:0xc9a986147dc23ed2!8m2!3d25.321975!4d55.4685198!16s%2Fg%2F11w_xq8992?hl=en-BE&entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="text-base ml-0 md:ml-8 underline hover:text-[#ffe3b3] transition"

@@ -10,7 +10,7 @@ const navItems = [
 export default function Header() {
   return (
     <header
-      className=""
+      className="bg-[#d5cec8]"
       style={{
         padding: "1rem 0",
         background: "#d5cec8", // background is static
