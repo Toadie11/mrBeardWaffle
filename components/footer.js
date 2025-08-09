@@ -124,14 +124,14 @@ export default function Footer() {
           </div>
           <div className="ml-0 md:ml-8">
             <div>
-              Monday - Friday
+              Monday
               <br />
-              15:00 - 00:00
+              17:00 - 23:30
             </div>
             <div className="mt-2">
-              Saturday - Sunday
+              Tuesday - Sunday
               <br />
-              12:00 - 00:00
+              15:00 - 23:30
             </div>
           </div>
           <div className="flex items-center mt-4">
